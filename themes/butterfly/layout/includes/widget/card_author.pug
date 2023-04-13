@@ -1,0 +1,31 @@
+if theme.aside.card_author.enable
+  .card-widget.card-info
+    .is-center
+      .avatar-img
+        img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
+      .author-info__name= config.author
+      .author-info__description!= theme.aside.card_author.description || config.description
+
+    .card-info-data.site-data.is-center
+      a(href=url_for(config.archive_dir) + '/')
+        .headline= _p('aside.articles')
+        .length-num= site.posts.length
+      a(href=url_for(config.tag_dir) + '/')
+        .headline= _p('aside.tags')
+        .length-num= site.tags.length
+      a(href=url_for(config.category_dir) + '/')
+        .headline= _p('aside.categories') 
+        .length-num= site.categories.length
+
+    if theme.aside.card_author.button.enable
+        #heo-footertop 
+         a.heo-footertop.footer-group1(href='https://statically.io', target='_blank', rel='external nofollow noopener noreferrer')
+           img(src='https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/xxx.4d6ua6rodo40.png')
+         a.heo-footertop.footer-group1(href='https://github.com/', target='_blank', rel='external nofollow noopener noreferrer')
+           img(src='https://fastly.jsdelivr.net/gh/mrxie68/cdnimg@master/img/iconfinder-icon.6izjtsxsrm80.svg')
+         a.heo-footertop.footer-group1(href='https://stats.uptimerobot.com/XqP0WcnWvW', target='_blank', rel='external nofollow noopener noreferrer')
+           img(src='https://fastly.jsdelivr.net/gh/mrxie68/cdnimg@master/img/监控.34y34mqmta60.svg')
+  
+    if(theme.social)
+        .card-info-social-icons.is-center
+          !=fragment_cache('social', function(){return partial('includes/header/social')}) 

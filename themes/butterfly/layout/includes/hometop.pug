@@ -1,0 +1,57 @@
+if is_home()
+    #home_top
+        .recent-top-post-group#recent-top-post-group
+            .recent-post-top#recent-post-top
+                #bannerGroup
+                    #banners
+                        .banners-title
+                            .banners-title-big 无限活力
+                            .banners-title-big 与热爱生活
+                            .banners-title-small @www.0412.cyou
+                        .tags-group-all
+                            .tags-group-wrapper
+                                each i in site.data.creativity
+                                    - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                                    - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                                    each item, index in i.creativity_list
+                                        if ((index + 1 <= evenNum.length) && (index + 1 <= oddNum.length))
+                                            .tags-group-icon-pair
+                                                .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                                                    img(src=evenNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=evenNum[index].name, alt=evenNum[index].name)
+                                                .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                                                    img(src=oddNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=oddNum[index].name, alt=oddNum[index].name)
+                                each i in site.data.creativity
+                                    - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                                    - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                                    each item, index in i.creativity_list
+                                        if ((index + 1 <= evenNum.length) && (index + 1 <= oddNum.length))
+                                            .tags-group-icon-pair
+                                                .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                                                    img(src=evenNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=evenNum[index].name, alt=evenNum[index].name)
+                                                .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                                                    img(src=oddNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=oddNum[index].name, alt=oddNum[index].name)
+                        a#banner-hover(href='/', target='_blank')
+                            span.bannerText 随便逛逛
+                            i.fas.fa-arrow-right.banner-righticon
+                    .categoryGroup
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-blue)')
+                            a.categoryButton.CB1.bikan(href='/categories/技术交流/')
+                                span.categoryButtonText 必看精选
+                                i.fas.fa-dove
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-red)')
+                            a.categoryButton.remen(href='/categories/经验分享/')
+                                span.categoryButtonText 热门文章
+                                i.fas.fa-burn
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-green)')
+                            a.categoryButton.shiyong(href='/categories/个人相册/')
+                                span.categoryButtonText 个人相册
+                                i.fas.fa-book
+                .topGroup
+                     .author-content-item1.page-top-card1(style='background-image: url(https://bu.dusays.com/2023/04/11/643527f798a4c.jpg);')
+                        .content-item-tips 相册<br>
+                         span.content-item-title 我的生活
+                        .content-bottom
+                          .tips 记录美好生活
+                          a.banner-button(href='#申请友链')
+                             i.fa-solid.fa-image
+                             span 我的相册

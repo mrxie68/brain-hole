@@ -1,0 +1,21 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Vue
+      color: "#c90000"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024副本.1zr7wqiamds0.webp
+    - name: Photoshop
+      color: "#001e36"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024.36c0bh8y4tw0.webp
+    - name: Photoshop
+      color: "#fff"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024.1dv0jw6qu6sg.webp
+
+    - name: Vue
+      color: "#00b333"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024.fc3r2qkwjs0.webp
+    - name: Photoshop
+      color: "#330000"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024.3xa2qsfq1jy0.webp
+    - name: Photoshop
+      color: "#00005b"
+      icon: https://cdn.staticaly.com/gh/mrxie68/cdnimg@master/img/Photoshop-1024.29t2p3fwqnwg.webp
