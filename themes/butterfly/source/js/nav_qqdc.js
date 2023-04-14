@@ -48,3 +48,4 @@ $(function() {
         console.log(error);
       });
   });
+  console.clear();

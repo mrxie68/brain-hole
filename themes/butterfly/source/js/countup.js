@@ -209,4 +209,3 @@ var CountUp = function (target, startVal, endVal, decimals, duration, options) {
 };
 
 
-console.clear();
