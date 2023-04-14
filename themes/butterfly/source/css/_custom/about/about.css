@@ -204,7 +204,7 @@
   
   .author-content-item .card-content .author-content-item-title {
     margin-bottom: 0.5rem;
-    z-index: 99;
+    z-index: 1;
   }
   .author-content-item .author-content-item-title {
     font-size: 36px;
