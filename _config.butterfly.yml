@@ -835,8 +835,8 @@ inject:
      - <script src="/js/nav_qqdc.js"></script>
      - <script charset="UTF-8" id="K0xImR6trIMxP1jH" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
      - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-     - <script> LA.init({id:"LA_COLLECT",ck:"K0xImR6trIMxP1jH"})</script>
-     - <script>new LingQue.Monitor().init({id:"LA_COLLECT",sendSuspicious:true});</script>
+     - <script> LA.init({id:"K0xImR6trIMxP1jH",ck:"K0xImR6trIMxP1jH"})</script>
+     - <script>new LingQue.Monitor().init({id:"K0xImR6trIMxP1jH",sendSuspicious:true});</script>
      - <script type="text/javascript" src ="/js/reward.js" ></script>
      - <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js"></script>
      - <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
