@@ -831,7 +831,12 @@
     transform: translateX(10px) rotate(90deg) translate3d(8px, 10px, 10px);
 
   }
-  
+  #aside-content .item-headline {
+    padding-bottom: 8px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+}
   .navbar__item:hover span {
     transform: translateX(7px);
   }
@@ -842,6 +847,10 @@
       position: relative;
     }
   }
+  #recent-posts1 > .recent-post-item >.recent-post-info {
+    padding: 10px 30px;
+    width: 57%;
+}
   #page-header.post-bg {
     height: 37rem;
     transition: 0s;
