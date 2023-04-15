@@ -103,9 +103,10 @@ butterfly_article_double_row:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:mrxie68/mrxie68.github.io.git
+  repo: git@github.com:mrxie68/mrxie68.github.io.git
   branch: main
-
+  ignore_hidden: false
+  static_dir: public
 swiper:
   enable: false
   priority: 2
