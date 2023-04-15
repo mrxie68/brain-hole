@@ -6,7 +6,7 @@ categories: 博客记录
 description: hexo new "My New Post"
 cover: https://bu.dusays.com/2023/04/11/64350b01a5eb6.jpg
 ---
-## Quick Start
+### Quick Start
 
 ### Create a new post
 
