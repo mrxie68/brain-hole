@@ -1,0 +1,1 @@
+var posts=["2023/03/16/Butterfly主题说明文档/","2023/03/16/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
