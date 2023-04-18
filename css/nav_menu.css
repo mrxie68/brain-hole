@@ -723,6 +723,7 @@
     height: 60px;
     position: relative;
     padding: 0;
+    margin: 0;
   }
   .navbar__item {
     display: flex;
@@ -756,6 +757,11 @@
     top: 0;
 }
 @media (max-width: 768px){
+  .navbar__item23 {
+    padding: 1em;
+  }}
+
+@media (max-width: 768px){
 .navbar__item8 {
     overflow-x: scroll;
     white-space: nowrap;
@@ -767,6 +773,8 @@
       white-space: nowrap;
       position: relative;
   }}
+
+
 .navbar__item28 {
   display: flex;
   margin-left: auto;
@@ -774,7 +782,7 @@
   font-weight: 500;
   font-size: 17px;
   height: 60px;
-  padding: 0.3em 1.5em 0.4em 0.8em;
+  padding: 1em;
   color: white;
   border: none;
   letter-spacing: 0.05em;
@@ -876,8 +884,21 @@
     transition: 0s;
     background-color: transparent;
     overflow: hidden;
-    background-color: var(--anzhiyu-bar-background)
+    background-color: var(--anzhiyu-bar-background);
+    height: 580px;
 }
+@media screen and (max-width: 768px){
+  #page-header.post-bg  {
+      
+    height: 380px;
+}}
+
+@media screen and (max-width: 768px){
+#page-header #post-info {
+  margin-top: 100px;
+}}
+
+
   #page-header:not(.not-top-img):before{
     background-color:rgba(0,0,0,0);
 
@@ -1596,7 +1617,7 @@ body {
   -webkit-flex: 1 auto;
   -ms-flex: 1 auto;
   flex: 1 auto;
-  padding: 23px 10px;
+  padding: 23px 20px;
   max-width: 1600px;
   width: 100%;
 
@@ -2199,11 +2220,14 @@ html.hide-aside .layout > div:first-child {
     -webkit-flex: 1 auto;
     -ms-flex: 1 auto;
     flex: 1 auto;
-    padding: 30px 10px;
+    padding: 10px 10px;
     max-width: 1600px;
     width: 100%;
   }}
-
+  @media screen and (max-width: 1100px){
+  #recent-posts1 > .recent-post-item:not(:first-child) {
+    margin-top: 10px;
+}}
   @media screen and (max-width: 1100px){
     .aside-content {
       display: none;
@@ -2603,7 +2627,6 @@ h3 {
 
 
 .navbar__item3{
-  overflow-x: clip;
   white-space: nowrap;
   position: relative;
   width: 100%;
@@ -2633,7 +2656,7 @@ h3 {
 }
 @media (max-width: 768px) {
   .navbar__item3 {
-    overflow-x: clip;
+    overflow: hidden;
     white-space: nowrap;
     position: relative;
     margin: 0px;

@@ -64,4 +64,13 @@ display:none;/*隐藏文章详情*/
 #recent-posts1 > .recent-post-item {
  width:100%;/*控制手机自适应*/
 }
-
+}
+@media (max-width: 768px){
+  #recent-posts1 > .recent-post-item .post_cover {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1100px){
+#recent-posts1 > .recent-post-item:not(:first-child) {
+    margin-top: 15px;
+}}
