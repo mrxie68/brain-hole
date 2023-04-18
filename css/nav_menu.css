@@ -702,6 +702,7 @@
     overflow-x: auto; /* 在横向溢出时显示滚动条 */
     white-space: nowrap;
     position: relative;
+    padding: 0;
   }
   .navbar__item3{
     display: flex;
@@ -721,6 +722,7 @@
     align-items: center;
     height: 60px;
     position: relative;
+    padding: 0;
   }
   .navbar__item {
     display: flex;
