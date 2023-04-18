@@ -836,6 +836,7 @@
     font-size: 0.9em;
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
   .navbar__item:hover span {
     transform: translateX(7px);
@@ -1527,7 +1528,7 @@ a.categoryButton:hover {
   -webkit-align-self: flex-start;
   align-self: flex-start;
   -ms-flex-item-align: start;
-  padding: 40px 50px 50px;
+  padding: 8px 50px 50px;
   width: 80%;
 }
 .layout > div:first-child {
@@ -2026,6 +2027,7 @@ h1, h2, h3, h4, h5, h6 {
 .date1{
   text-align: right;
   margin-right: 10px;
+  
 }
 .page-top-card {
   background-size: cover;
@@ -2099,6 +2101,8 @@ html.hide-aside .layout > div:first-child {
 .body11{
   word-wrap: break-word;
   line-height: 1.5;
+  margin: 15px 0px 10px 0px;
+  text-indent: 2em;
 }
 
 #page-header.nav-fixed #nav a:hover, #page-header.nav-fixed #nav #site-name:hover, #page-header.nav-fixed #nav #toggle-menu:hover {
@@ -2295,7 +2299,7 @@ html.hide-aside .layout > div:first-child {
 .date1 {
   text-align: right;
   margin-right: 10px;
-  color: #666;
+  color: var(--anzhiyu-background)
 }
 .category-lists ul li:hover {
   color: var(--anzhiyu-white) !important;
@@ -2566,4 +2570,17 @@ div#menus {
 #recent-posts1 > .recent-post-item >.recent-post-info > .article-title {
   font-size: 1.8em;
   font-weight: 600;
+}
+h3 {
+  display: block;
+  font-size: 1.35em;
+  margin-block-start: 1.5em;
+  margin-block-end: 0.71em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.note.green > .note-icon {
+  color: #5cb85c;
+  line-height: 1.3;
 }
