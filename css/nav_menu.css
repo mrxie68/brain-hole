@@ -2283,7 +2283,12 @@ a.banner-button {
 		width: 100% !important;
 	}
 }
-
+.player{
+	margin-top:10px;
+	border-radius:2px;
+	box-shadow:0 0 0px #ccc;
+	background:#fff;
+}
 .body11 {
 	word-wrap: break-word;
 	line-height: 1.5;
@@ -2964,4 +2969,13 @@ h3 {
 	content: '\f1f9';
 	font-size: 1.3em;
 	margin-top: 4px;
+}
+.music-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.music-player iframe {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
