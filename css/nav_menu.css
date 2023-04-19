@@ -220,6 +220,7 @@ div#menus {
 
 #nav .site-page {
 	padding-bottom: 0px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.3);
 }
 
 #nav *::after {
@@ -1004,7 +1005,6 @@ center#name-container {
 #home_top {
 	margin: auto;
 	margin-top: 4.3rem;
-	padding: 0px 10px 0px 10px;
 	max-width: 1600px;
 	width: 100%;
 }
@@ -1043,7 +1043,7 @@ center#name-container {
 	border-radius: 12px;
 	width: 100%;
 	margin-bottom: 0;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 20px 0px 20px;
 }
 
 .recent-post-top::-webkit-scrollbar {
@@ -1479,7 +1479,7 @@ div#banners:hover {
 	color: #fff;
 	font-size: 66px;
 	font-weight: 700;
-	box-shadow: var(--bywind-shadow-blackdeep)
+	box-shadow: 0px 0px 12px var(--anzhiyu-background);
 }
 
 .nowrapMove .tags-group-icon {
@@ -1677,16 +1677,6 @@ body {
 	.layout>div:first-child:not(.recent-posts1) {
 		width: 100%;
 	}
-}
-
-.tags-group-icon {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #fff;
-	font-size: 66px;
-	font-weight: 700;
-	box-shadow: 0px 1px 8px #91919175;
 }
 
 @media screen and (max-width: 1100px) {
@@ -2036,7 +2026,7 @@ h6 {
 
 #aside-content>.card-widget:first-child {
 	margin-top: 0;
-	background: var(--card-bg)url(https://img02.anzhiy.cn/adminuploads/1/2022/10/26/6358a07bf21fc.webp) top -20% center no-repeat;
+	background: var(--card-bg)url(/) top -20% center no-repeat;
 
 }
 
@@ -2147,12 +2137,12 @@ h6 {
 	margin-top: 24px;
 	background: var(--card-bg);
 	border-radius: 15px;
-	height: max-content;
-	padding: 2rem;
+	height: auto;
+	padding: 2rem 2rem 3rem 2rem;
 	transition: 0.3s;
 	display: inline-block;
 	width: 400px;
-
+	position: relative;
 	flex-grow: 1;
 	margin-left: 15px;
 }
@@ -2181,7 +2171,11 @@ h6 {
 
 .date {
 	color: #666;
-	font-size: 14px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    padding: 0px 35px 10px 0px;
+    right: 10px;
 }
 
 .author-content1 {
@@ -2228,7 +2222,7 @@ span.content-item-title {
 	align-items: center;
 	position: absolute;
 	width: calc(100% - 5.4rem);
-	bottom: 1rem;
+	bottom: 2rem;
 }
 
 a.banner-button {
@@ -2292,7 +2286,7 @@ a.banner-button {
 .body11 {
 	word-wrap: break-word;
 	line-height: 1.5;
-	margin: 15px 0px 10px 0px;
+	margin: 15px 0px 15px 0px;
 }
 
 #page-header.nav-fixed #nav a:hover,
@@ -2390,7 +2384,7 @@ a.banner-button {
 		-webkit-flex: 1 auto;
 		-ms-flex: 1 auto;
 		flex: 1 auto;
-		padding: 10px 10px;
+		padding: 10px 20px;
 		max-width: 1600px;
 		width: 100%;
 	}
@@ -2462,7 +2456,14 @@ a.banner-button {
 	box-shadow: var(--HiPeach-shadow-border);
 	background: var(--anzhiyu-background);
 }
-
+.article-sort-title {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 1.72em;
+}
 .article-sort-title:after {
 	position: absolute;
 	bottom: 0;
@@ -2772,7 +2773,7 @@ div#menus {
 		width: 100%;
 	}
 }
-
+/*
 #twikoo .tk-extra {
 	background: var(--anzhiyu-background);
 	padding: 4px 8px;
@@ -2781,7 +2782,7 @@ div#menus {
 	color: var(--anzhiyu-secondtext);
 	margin-top: 6px;
 	font-size: .8rem;
-}
+}*/
 
 .tk-expand[data-v-d82ce9a0] {
 	font-size: 0.75em;
@@ -2978,4 +2979,9 @@ h3 {
   border: none;
   margin: 0;
   padding: 0;
+}
+.author-content-item .card-content .banner-button-group {
+    position: absolute;
+    bottom: -0.5rem;
+    right: -2rem;
 }
