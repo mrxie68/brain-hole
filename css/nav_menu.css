@@ -2987,3 +2987,13 @@ h3 {
     bottom: -0.5rem;
     right: -2rem;
 }
+.tk-row.actions {
+    height: 20px;
+}
+@media screen and (max-width: 900px){
+#rightside #mobile-toc-button {
+    display: none;
+}}
+#about-page .about-statistic::after {
+    box-shadow: 0 -159px 173px 71px #0c1c2cd9 inset;
+}
