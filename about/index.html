@@ -153,11 +153,7 @@
 
 
   
-  fetch('https://v6-widget.51.la/v6/K0xImR6trIMxP1jH/quote.js', {
-    headers: {
-      'Cache-Control': 'no-cache'
-      }
-      })then(res => res.text()).then((data) => {
+  fetch('https://v6-widget.51.la/v6/K0xImR6trIMxP1jH/quote.js?' + Math.random()).then(res => res.text()).then((data) => {
       let title = ['最近活跃', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
       let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g)
 
