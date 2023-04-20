@@ -298,7 +298,6 @@ div#menus {
 
 #post-info #post-meta {
 	color: var(--light-grey);
-	display: flex;
 	font-weight: 700;
 }
 
@@ -1707,7 +1706,7 @@ body {
 	-webkit-flex: 1 auto;
 	-ms-flex: 1 auto;
 	flex: 1 auto;
-	padding: 23px 20px;
+	padding: 15px 20px 100px 20px;
 	max-width: 1600px;
 	width: 100%;
 
@@ -1733,7 +1732,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 0px 0px 20px 0px;
-	margin-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2023,7 +2021,11 @@ h6 {
 #post-info #post-meta .post-meta-icon {
 	margin: 6px;
 }
-
+@media screen and (max-width: 768px){
+#post-info #post-meta {
+    font-size: 90%;
+    display: none;
+}}
 #aside-content>.card-widget:first-child {
 	margin-top: 0;
 	background: var(--card-bg)url(/) top -20% center no-repeat;
@@ -2237,7 +2239,7 @@ a.banner-button {
 #page-header.nav-fixed #nav {
 	position: fixed;
 
-	z-index: 9999;
+	z-index: 999;
 	background: rgb(255, 255, 255);
 	box-shadow: 0 3px 4px -5px rgba(133, 133, 133, 0.6);
 }
@@ -2773,7 +2775,7 @@ div#menus {
 		width: 100%;
 	}
 }
-/*
+
 #twikoo .tk-extra {
 	background: var(--anzhiyu-background);
 	padding: 4px 8px;
@@ -2782,7 +2784,7 @@ div#menus {
 	color: var(--anzhiyu-secondtext);
 	margin-top: 6px;
 	font-size: .8rem;
-}*/
+}
 
 .tk-expand[data-v-d82ce9a0] {
 	font-size: 0.75em;
