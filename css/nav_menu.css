@@ -1862,14 +1862,12 @@ img.footer_mini_logo {
 
 #footerwz {
 	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	color: var(--font-color);
-	font-size: 15px;
-	z-index: 99;
+    flex-direction: row;
+    align-items: center;
+    color: var(--font-color);
+    font-size: 15px;
+    z-index: 99;
+    justify-content: center;
 }
 
 #heo-footer .footer-item {
