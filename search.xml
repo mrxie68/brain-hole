@@ -4,9 +4,34 @@
   
     
     <entry>
+      <title>Mac os安装photoshop后，Camera Raw滤镜面板黑色无法使用解决办法</title>
+      <link href="/2023/04/25/Mac%20os%E5%AE%89%E8%A3%85photoshop%E5%90%8E/"/>
+      <url>/2023/04/25/Mac%20os%E5%AE%89%E8%A3%85photoshop%E5%90%8E/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="👏-问题说明"><a href="#👏-问题说明" class="headerlink" title="👏 问题说明"></a>👏 问题说明</h3><blockquote><p>🌟 Mac os安装photoshop后，Camera Raw滤镜面板黑色无法使用的问题解决办法。</p></blockquote><p><img src="https://bu.dusays.com/2023/04/25/64476a125f906.webp"></p><h3 id="👏-操作步骤"><a href="#👏-操作步骤" class="headerlink" title="👏 操作步骤"></a>👏 操作步骤</h3><p>按照Adobe的兼容性文档解释，只需要升级Camera Raw滤镜即可解决问题。</p><p>🌟 Camera Raw滤镜<a href="https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-in-installer.html">插件下载</a> mac Photoshop 中的已知<a href="https://helpx.adobe.com/cn/photoshop/kb/known-issues.html">问题</a></p><p><img src="https://bu.dusays.com/2023/04/25/64476a1265823.webp"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> macos </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Windows连接蓝牙音箱后无法调节音量解决办法</title>
-      <link href="/2023/04/19/Windows%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1%E5%90%8E%E6%97%A0%E6%B3%95%E8%B0%83%E8%8A%82%E9%9F%B3%E9%87%8F%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-      <url>/2023/04/19/Windows%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1%E5%90%8E%E6%97%A0%E6%B3%95%E8%B0%83%E8%8A%82%E9%9F%B3%E9%87%8F%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      <link href="/2023/04/19/Windows%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1/"/>
+      <url>/2023/04/19/Windows%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="👏-问题说明"><a href="#👏-问题说明" class="headerlink" title="👏 问题说明"></a>👏 问题说明</h3><blockquote><p>🌟 Windows10默认启用了蓝牙绝对音量，导致了有一部分音箱无法调节音量。只需要修改注册表即可。</p></blockquote><h3 id="👏-操作步骤"><a href="#👏-操作步骤" class="headerlink" title="👏 操作步骤"></a>👏 操作步骤</h3><p>打开注册表编辑器，搜索路径：计算机\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Bluetooth\Audio\AVRCP\CT，找到DisableAbsoluteVolume，值修改为1，如果没有，右键新建DWORD32位值，命名为“DisableAbsoluteVolume”，值为1。</p><p>🌟 然后重启即可恢复。</p>]]></content>
       
@@ -20,8 +45,6 @@
       
         <tags>
             
-            <tag> 博客 </tag>
-            
             <tag> win </tag>
             
         </tags>
@@ -32,8 +55,8 @@
     
     <entry>
       <title>HomeKit升级后ipad不能当作中枢的解决办法</title>
-      <link href="/2023/04/17/HomeKit%E5%8D%87%E7%BA%A7%E5%90%8Eipad%E4%B8%8D%E8%83%BD%E5%BD%93%E4%BD%9C%E4%B8%AD%E6%9E%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-      <url>/2023/04/17/HomeKit%E5%8D%87%E7%BA%A7%E5%90%8Eipad%E4%B8%8D%E8%83%BD%E5%BD%93%E4%BD%9C%E4%B8%AD%E6%9E%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      <link href="/2023/04/17/HomeKit/"/>
+      <url>/2023/04/17/HomeKit/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script></br><p><img src="https://bu.dusays.com/2023/04/19/644003962595d.webp"></p><h3 id="👏-HomeKit"><a href="#👏-HomeKit" class="headerlink" title="👏 HomeKit"></a>👏 HomeKit</h3><p>HomeKit是苹果公司推出的智能家居平台，旨在帮助用户通过iPhone、iPad或Apple Watch等苹果设备来控制家里的智能设备，如灯光、暖气、安全系统等。HomeKit具有以下几个特点：<br><strong>1、安全性高：</strong>HomeKit采用了端到端加密技术，确保用户的家庭数据和隐私得到保护。<br><strong>2、兼容性强：</strong>HomeKit支持多种智能设备品牌，包括飞利浦、海康威视、LG等，用户只需要购买支持HomeKit的设备，就可以通过苹果设备来控制。<br><strong>3、操作简单：</strong>用户可以通过Siri语音控制，也可以通过苹果设备上的Home应用程序来控制智能设备。<br><strong>4、自动化场景：</strong>HomeKit可以根据用户的习惯和时间表自动执行某些操作，如在用户离开家时关闭灯光和电器，或在用户醒来时自动开启窗帘等。<br>总的来说，HomeKit是一个易于使用、安全可靠的智能家居平台，可以为用户提供更加便捷、智能化的家居生活体验。</p><h3 id="❓-计划报废"><a href="#❓-计划报废" class="headerlink" title="❓ 计划报废"></a>❓ 计划报废</h3><p> HomeKit从IOS16开始不再支持ipad作为中枢远程访问家庭设备，很多朋友升级了家庭后iPad已经没有办法作为中枢了，但是苹果还是提供了一种恢复的办法。可以降低HomeKit的版本，以恢复ipad作为中枢。</p><h3 id="🍀-安装描述文件。"><a href="#🍀-安装描述文件。" class="headerlink" title="🍀 安装描述文件。"></a>🍀 安装描述文件。</h3><blockquote><p>🌟 HomeKit<a href="http://appldnld.apple.com/iOSProfiles/KeepLegacyHome.mobileconfig">描述文件下载</a>下载描述文件安装后重启，在家庭设置里面点击<code>恢复</code>即可恢复到旧版本HomeKit，这样ipad就可以继续当作家庭中枢了。</p></blockquote>]]></content>
       
