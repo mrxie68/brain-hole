@@ -1,1 +1,1 @@
-var posts=["2023/03/17/Butterfly主题说明文档/","2023/04/19/Windows连接蓝牙音箱/","2023/04/17/HomeKit/","2023/04/25/Mac os安装photoshop后/","2023/03/16/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/03/17/Butterfly主题说明文档/","2023/04/17/HomeKit/","2023/04/19/Windows连接蓝牙音箱/","2023/04/25/Mac os安装photoshop后/","2023/03/16/hello-world/","2023/05/18/构建家庭网络入门(二)/","2023/05/18/构建家庭网络入门(一)：硬件介绍及pve安装/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
