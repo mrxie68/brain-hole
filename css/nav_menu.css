@@ -510,7 +510,7 @@ center#name-container {
 	padding: 0 !important;
 	align-items: center;
 	justify-content: center;
-	margin-right: 4px;
+	margin-left: 20px;
 	transition: 0.3s;
 	border-radius: 8px;
 }
@@ -3028,3 +3028,14 @@ h3 {
 #article-container figure.gallery-group {
 	border-radius: 15px;
   }
+  @media screen and (max-width: 767px){
+	.tk-avatar {
+	  display: none;
+  } }
+  
+  @media (max-width: 767px) {
+	.tk-row.actions {
+	  margin-left: 0rem !important;
+	}
+  }
+  
